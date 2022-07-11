@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Website || Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <nav id="nav">
+        <img src="logo.png" width="120px" alt="" >
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="   #">Pages</a></li>
+            <li><a href="#">Elements</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+            <!-- <p>&nbsp;</p>   -->
+            
+        </ul>
+        <li><button><p style="color: red;">Buy Rogan →</p></button></li>
+    </nav>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+          
+    <div style="display:flex;">
+ 
+        <div style="margin-left:100px;"> 
+                    <li  > <div id="disc" ><span style="color: red;">70% Off</span> for first 3 Months</div></li>
+                <!-- <p>&nbsp;</p> -->
+                <!-- <p>&nbsp;</p> -->
+                <br>
+            <div style="display:flex;">
+                 <div id="text" ><p>Digital Agency   <br> With Excellence <br> Services.
+                    <div>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <div style="font-size: 18px; color: grey; font-family: 'Times New Roman', Times, serif;">The 3 golden rules professional graphic designer don't</div>
+                     </div>
+                </div> 
+                <img src="bg.jpg" alt="" style="width: 100%; height:400px; background-attachment: fixed;">               
+            </div>         
+        </div>
+    </div>
+    <!-- javascript area -->
+   <div id="sc" style="display: flex; padding: 10px; font">
+        <div id="name" class="intro"></div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <div id="rollno" class="intro"></div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>   
+        <div id="college" class="intro"></div>
+        <p>&nbsp;</p>
+       
+        <div class="intro" id="dt">
+            <div id="date"></div>
+            <div id="Month"></div>
+            <div id="year"></div>
+        </div>
+    </div>
+    <script>
+        const person = {
+          name:"vishal tiwari",
+          rollno:"201500798",
+          college:"gla university mathura",
+        };
+        const d=new Date();
+        
+        
+       document.getElementById("name").innerHTML="vishal tiwari";
+       document.getElementById("rollno").innerHTML="201500798";
+       document.getElementById("college").innerHTML="Gla University Mathura";
+       document.getElementById("date").innerHTML=d.getDate()+" - ";
+       document.getElementById("Month").innerHTML=d.getMonth()+" - ";
+       document.getElementById("year").innerHTML=d.getFullYear();
+        </script>
+
+</body>
+</html>  
